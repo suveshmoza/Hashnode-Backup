@@ -24,8 +24,7 @@ Imagine you've initially boosted the processing power of your web application's 
 
 The next step is to implement **horizontal scaling**. Instead of relying on a single powerful machine, you introduce multiple machines to collectively handle the increasing workload. This approach ensures that your application can efficiently distribute tasks among these machines, allowing for better scalability and improved performance without the limitations of a single server.
 
-* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704911155817/f3406593-d712-4f66-86b1-08efc5344242.png align="center")
-    
+![Image depicting horizontal scaling](https://cdn.hashnode.com/res/hashnode/image/upload/v1704912013861/9d2700d8-a2b6-45cf-97c8-15030d1806e5.png align="center")
 
 ### **Advantages**:
 
