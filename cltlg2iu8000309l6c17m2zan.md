@@ -1,10 +1,12 @@
 ---
 title: "Just In Time Compilation in JavaScript"
+seoTitle: "Understanding Just In Time Compilation in JavaScript"
+seoDescription: "Explore how modern JS engines utilize JIT compilers to enhance execution speed and performance."
 datePublished: Sun Mar 10 2024 11:41:55 GMT+0000 (Coordinated Universal Time)
 cuid: cltlg2iu8000309l6c17m2zan
 slug: just-in-time-compilation-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1710068625888/3026d7f0-0319-4d5d-8966-3eebee20bcca.png
-tags: interview, js, javascript, compilers
+tags: javascript, jit-compiler, javascript-interview-question
 
 ---
 
@@ -39,6 +41,8 @@ JIT Compilers have several key components, each playing a crucial role in the co
 1. Initially the JS code is executed by the JS engine line by line.
     
 2. The monitor starts monitoring the execution of the JS code and gathers runtime information, such as which function are called frequently, which type are used, and how loops are iterated. Then the monitor categorizes the code into hot code and warm code. The code that is neither hot or cold is executed by the interpreter.
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1710096963822/182bafeb-0fdc-4578-9d50-3ccdbf1fc0a0.png align="center")
     
 3. The warm code is sent to the baseline compiler which converts it into machine code quickly.
     
