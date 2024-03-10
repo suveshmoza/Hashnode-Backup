@@ -27,7 +27,7 @@ Modern JS Engines, use various optimization techniques and one of them is Just-I
 
 JIT Compilers have several key components, each playing a crucial role in the compilation process.
 
-1. Interpreter: Initially JS code is interpreted by the JS Engine, which executes the code line by line.
+1. Interpreter: Initially JS code is interpreted by the JS Engine, which executes the code line by line, converting it into intermediate representations such as bytecode or AST (Abstract Syntax Tree).
     
 2. Monitor(Profiler): The monitor is responsible for continuously monitoring the code execution. The monitor tracks which part of the code is **warm** (less frequently used) and **hot** (more frequently used).
     
@@ -38,7 +38,7 @@ JIT Compilers have several key components, each playing a crucial role in the co
 
 ### How JIT works
 
-1. Initially the JS code is executed by the JS engine line by line.
+1. Initially the JS code is executed by the JS engine line by line. converting it into intermediate representations such as bytecode or AST (Abstract Syntax Tree).
     
 2. The monitor starts monitoring the execution of the JS code and gathers runtime information, such as which function are called frequently, which type are used, and how loops are iterated. Then the monitor categorizes the code into hot code and warm code. The code that is neither hot or cold is executed by the interpreter.
     
