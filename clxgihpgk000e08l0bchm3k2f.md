@@ -46,7 +46,8 @@ value = "" && "world";     // "", empty string is falsy
 
 ```javascript
 let isEqual = "5" == 5;    // true, string "5" is converted to number 5 
-isEqual = null == undefined;  // true, `null` and `undefined` are considered equal isEqual = "0" == false;    // true, string "0" is converted to number 0 and compared to false (which is also 0)
+isEqual = null == undefined;  // true, `null` and `undefined` are considered equal 
+isEqual = "0" == false;    // true, string "0" is converted to number 0 and compared to false (which is also 0)
 ```
 
 ## Explicit Coercion
@@ -64,7 +65,7 @@ Explicit coercion is useful in many scenarios:
 
 #### To String
 
-1. **toString() method:** `toString()` method converts an object to a string. It can be called on numbers, boolean, arrays, and many other objects. However, for `null` and `undefined`, it will throw an error
+1. **toString() method:**`toString()` method converts an object to a string. It can be called on numbers, boolean, arrays, and many other objects. However, for `null` and `undefined`, it will throw an error
     
 
 ```javascript
